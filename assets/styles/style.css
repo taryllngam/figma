@@ -6,7 +6,7 @@
 .navbar {
   width: 100vw;
   height: 6vh;
-  background-color: #252B42;
+  background-color: #252b42;
   color: white;
 }
 
@@ -16,7 +16,7 @@
 }
 .topbar h1 {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar .topbar {
@@ -32,7 +32,12 @@
 }
 
 .maininfo {
-  background-image: linear-gradient(180deg, #de262600 14.58%, rgba(0, 0, 0, 0.84) 100%),url("../images/coverback.jpg");
+  background-image: linear-gradient(
+      180deg,
+      #de262600 14.58%,
+      rgba(0, 0, 0, 0.84) 100%
+    ),
+    url("../images/coverback.jpg");
   background-size: cover;
   height: fit-content;
 }
@@ -47,13 +52,13 @@
 }
 
 #text {
- padding: 2% 0 0 5%;
- color: white;
- max-width: 400px;
- margin: auto;
- font-weight: 1000;
- font-size: 50px;
-} 
+  padding: 2% 0 0 5%;
+  color: white;
+  max-width: 400px;
+  margin: auto;
+  font-weight: 1000;
+  font-size: 50px;
+}
 
 .info p {
   padding: 2% 0 0 4%;
@@ -87,7 +92,7 @@
   display: inline-block;
   border-radius: 20px;
   background-color: orange;
-  border-color:  orange;
+  border-color: orange;
 }
 
 #learn {
@@ -139,7 +144,7 @@
 }
 
 .standards {
-  background-color: #252B42;
+  background-color: #252b42;
 }
 
 .standard {
@@ -148,7 +153,7 @@
   display: grid;
   flex-direction: row;
   font-size: 10%;
-  font-weight: 'Montserrat', sans-serif;
+  font-weight: "Montserrat", sans-serif;
   gap: 3%;
   padding: 10% 0 5% 38%;
 }
@@ -179,12 +184,12 @@
 
 .standard #growth {
   text-decoration: none;
-  color: #00A0C1;
+  color: #00a0c1;
   font-size: 10px;
   width: 70px;
   height: 28px;
   border-radius: 12px;
-  border: 1px solid #00A0C1;
+  border: 1px solid #00a0c1;
 }
 
 .standard .marketing {
@@ -200,12 +205,12 @@
 
 .standard #marketing {
   text-decoration: none;
-  color: #00A0C1;
+  color: #00a0c1;
   font-size: 10px;
   width: 70px;
   height: 28px;
   border-radius: 12px;
-  border: 1px solid #00A0C1;
+  border: 1px solid #00a0c1;
 }
 
 .standard .top50 {
@@ -221,17 +226,17 @@
 
 .standard #top50 {
   text-decoration: none;
-  color: #00A0C1;
+  color: #00a0c1;
   font-size: 10px;
   width: 70px;
   height: 28px;
   border-radius: 12px;
-  border: 1px solid #00A0C1;
+  border: 1px solid #00a0c1;
 }
 
 .standard .digital {
   padding: 15px 25px;
-  background-color: #00A0C1;
+  background-color: #00a0c1;
   height: fit-content;
   width: 40%;
   display: flex;
@@ -242,12 +247,12 @@
 
 .standard #digital {
   text-decoration: none;
-  color: #00A0C1;
+  color: #00a0c1;
   font-size: 10px;
   width: 70px;
   height: 28px;
   border-radius: 12px;
-  border: 1px solid #00A0C1;
+  border: 1px solid #00a0c1;
 }
 
 .newton {
@@ -280,7 +285,6 @@
   text-align: center;
   justify-self: center;
   margin: 4%;
-
 }
 
 #play {
@@ -323,7 +327,7 @@
 }
 
 .testimonials {
-  background-color: #16697A;
+  background-color: #16697a;
   height: fit-content;
 }
 
@@ -384,7 +388,7 @@
 }
 
 .staff {
-  background-color: #252B42;
+  background-color: #252b42;
   height: auto;
 }
 
@@ -392,7 +396,6 @@
   padding-left: 1%;
   height: auto;
   width: auto;
- 
 }
 
 .staff-bar2 {
@@ -411,7 +414,7 @@
   margin: auto;
   text-align: center;
   color: white;
-  padding: 80px 0 ;
+  padding: 80px 0;
   font-family: "montserrat";
 }
 
@@ -446,7 +449,7 @@
 }
 
 .consult {
-  color: #FFA62B;
+  color: #ffa62b;
 }
 
 .branches {
@@ -475,7 +478,7 @@
 
 .branch p {
   font-size: 12px;
-  line-height:15px;
+  line-height: 15px;
 }
 
 form {
@@ -520,8 +523,8 @@ form {
 
 #name {
   height: 35px;
- padding-left: 5px;
- width: 30vw;
+  padding-left: 5px;
+  width: 30vw;
 }
 
 #email {
@@ -544,10 +547,10 @@ form {
 
 #buttn {
   width: 31vw;
- padding: 10px;
- background-color: #FFA62B;
- border-color: #FFA62B;
- color: white;
+  padding: 10px;
+  background-color: #ffa62b;
+  border-color: #ffa62b;
+  color: white;
 }
 
 #img2 {
@@ -556,7 +559,7 @@ form {
 
 .footer {
   height: fit-content;
-  background-color: #252B42;
+  background-color: #252b42;
   display: flex;
   flex-direction: column;
   gap: 5%;
@@ -617,33 +620,33 @@ form {
 
 .bottom {
   background-color: #384163;
-  color: #BDBDBD;
+  color: #bdbdbd;
   text-align: center;
   height: 4vh;
   padding-top: 10px;
 }
 
 #insta {
-  color: #E51F5A;
+  color: #e51f5a;
 }
 
 #twit {
-  color: #21A6DF;
+  color: #21a6df;
 }
 
 #tube {
-  color: #E42F08;
+  color: #e42f08;
 }
 
 #face {
-  color: #335BF5;
+  color: #335bf5;
 }
 
 @media screen and (min-width: 600px) {
   .navbar {
     width: 100vw;
     height: 9vh;
-    background-color: #252B42;
+    background-color: #252b42;
     color: white;
   }
 
@@ -660,24 +663,24 @@ form {
     padding: 10% 0 0 5%;
     color: white;
     max-width: 700px;
-   } 
-   
-   .info p {
-     padding: 2% 0 0 4%;
-     color: white;
-     max-width: 500px;;
-   }
-   
-   .butons {
-     display: flex;
-     flex-direction: row;
-     gap: 3%;
-     align-self: center;
-     justify-content: center;
-     padding: 5% 0 0;
-   }
+  }
 
-   .btn2 {
+  .info p {
+    padding: 2% 0 0 4%;
+    color: white;
+    max-width: 500px;
+  }
+
+  .butons {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    align-self: center;
+    justify-content: center;
+    padding: 5% 0 0;
+  }
+
+  .btn2 {
     padding: 0;
   }
 
@@ -699,7 +702,7 @@ form {
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    padding:0 ;
+    padding: 0;
   }
 
   .standard {
@@ -708,7 +711,7 @@ form {
     display: flex;
     flex-direction: row;
     font-size: 10px;
-    font-weight: 'Montserrat', sans-serif;
+    font-weight: "Montserrat", sans-serif;
     gap: 3%;
     padding: 10% 0 5% 15%;
   }
@@ -716,16 +719,16 @@ form {
   .standard h1 {
     font-size: 15px;
   }
-  
+
   .standard p {
     max-width: 100px;
   }
-  
+
   .standard img {
     width: 25px;
     height: 35px;
   }
-  
+
   .standard .growth {
     padding: 15px 25px;
     background-color: white;
@@ -736,17 +739,17 @@ form {
     gap: 15px;
     text-align: left;
   }
-  
+
   .standard #growth {
     text-decoration: none;
-    color: #00A0C1;
+    color: #00a0c1;
     font-size: 10px;
     width: 70px;
     height: 28px;
     border-radius: 12px;
-    border: 1px solid #00A0C1;
+    border: 1px solid #00a0c1;
   }
-  
+
   .standard .marketing {
     padding: 15px 25px;
     background-color: white;
@@ -757,17 +760,17 @@ form {
     gap: 15px;
     text-align: left;
   }
-  
+
   .standard #marketing {
     text-decoration: none;
-    color: #00A0C1;
+    color: #00a0c1;
     font-size: 10px;
     width: 70px;
     height: 28px;
     border-radius: 12px;
-    border: 1px solid #00A0C1;
+    border: 1px solid #00a0c1;
   }
-  
+
   .standard .top50 {
     padding: 15px 25px;
     background-color: white;
@@ -778,20 +781,20 @@ form {
     gap: 15px;
     text-align: left;
   }
-  
+
   .standard #top50 {
     text-decoration: none;
-    color: #00A0C1;
+    color: #00a0c1;
     font-size: 10px;
     width: 70px;
     height: 28px;
     border-radius: 12px;
-    border: 1px solid #00A0C1;
+    border: 1px solid #00a0c1;
   }
-  
+
   .standard .digital {
     padding: 15px 25px;
-    background-color: #00A0C1;
+    background-color: #00a0c1;
     height: auto;
     width: 14%;
     display: flex;
@@ -799,15 +802,15 @@ form {
     gap: 15px;
     text-align: left;
   }
-  
+
   .standard #digital {
     text-decoration: none;
-    color: #00A0C1;
+    color: #00a0c1;
     font-size: 10px;
     width: 70px;
     height: 28px;
     border-radius: 12px;
-    border: 1px solid #00A0C1;
+    border: 1px solid #00a0c1;
   }
 
   .newton {
@@ -822,7 +825,7 @@ form {
     font-family: "montserrat";
     line-height: 35px;
   }
-  
+
   .trust {
     display: flex;
     flex-direction: row;
@@ -831,7 +834,7 @@ form {
     align-items: center;
     padding-bottom: 50px;
   }
-  
+
   .media {
     background-image: url(../images/media.jpg);
     background-size: contain;
@@ -840,9 +843,8 @@ form {
     text-align: center;
     justify-self: center;
     margin: 4%;
-  
   }
-  
+
   #play {
     width: 20px;
     height: 20px;
@@ -857,7 +859,7 @@ form {
     display: flex;
     flex-direction: row;
   }
-  
+
   .testimonials .head h1 {
     display: flex;
     flex-direction: column;
@@ -869,7 +871,7 @@ form {
     padding-top: 100px;
     font-family: "montserrat";
   }
-  
+
   .testimonials .head p {
     max-width: 500px;
     margin: auto;
@@ -897,7 +899,7 @@ form {
     gap: 5%;
     margin-left: 3%;
   }
-  
+
   .head2 {
     display: flex;
     flex-direction: column;
@@ -909,7 +911,7 @@ form {
     padding: 80px 0;
     font-family: "montserrat";
   }
-  
+
   .consultant {
     padding: 2%;
     background-color: white;
@@ -928,12 +930,12 @@ form {
     width: 70%;
     align-self: center;
   }
-  
+
   .consultant h1 {
     font-size: 15px;
     max-width: 400px;
   }
-  
+
   .consultant p {
     max-width: 200px;
     align-content: left;
@@ -955,29 +957,29 @@ form {
 
   .branch p {
     font-size: 15px;
-    line-height:15px;
+    line-height: 15px;
   }
 
   .branch h1 {
     padding: 15px 0;
   }
-  
+
   form {
     background-color: white;
     width: auto;
   }
-  
+
   .form {
     background-color: white;
     width: auto;
     align-self: center;
-    padding:  20px;
+    padding: 20px;
   }
-  
+
   .form1 #img2 {
     width: 100%;
   }
-  
+
   .form1 {
     display: flex;
     flex-direction: row;
@@ -988,14 +990,14 @@ form {
     align-self: center;
     justify-content: center;
   }
-  
+
   .container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-left: 0;
   }
-  
+
   .form h1 {
     padding-left: 0;
     padding-top: 25px;
@@ -1003,7 +1005,7 @@ form {
 
   .footer {
     height: fit-content;
-    background-color: #252B42;
+    background-color: #252b42;
     display: flex;
     flex-direction: row;
     gap: 8%;
@@ -1013,5 +1015,3 @@ form {
     color: white;
   }
 }
-  
-
