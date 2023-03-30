@@ -504,3 +504,74 @@ form {
 #img2 {
   height: 60vh;
 }
+
+.footer {
+  height: 30vh;
+  background-color: #252B42;
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  padding: 0 13%;
+  font-family: "montserrat";
+  font-size: 13px;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.social a {
+  font-size: 20px;
+}
+
+.company a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 25px;
+}
+
+.company {
+  padding-top: 30px;
+}
+
+.features a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 25px;
+}
+
+.features {
+  padding-top: 30px;
+}
+
+.resources a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 25px;
+}
+
+.resources {
+  padding-top: 30px;
+}
+
+.bottom {
+  background-color: #384163;
+  color: #BDBDBD;
+  text-align: center;
+  height: 8vh;
+  padding-top: 40px;
+}
+
