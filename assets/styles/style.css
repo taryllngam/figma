@@ -33,6 +33,7 @@
 
 .maininfo {
   background-image: linear-gradient(180deg, #de262600 14.58%, rgba(0, 0, 0, 0.84) 100%),url("../images/coverback.jpg");
+  background-size: cover;
   height: fit-content;
 }
 
@@ -324,16 +325,16 @@
 .testimonials {
   background-color: #16697A;
   height: fit-content;
-  width: fit-content;
 }
 
 .testimonies {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
   padding: 40px 0;
   align-items: center;
   justify-self: center;
+  margin: 0 3% 0 1%;
 }
 
 .testimonials .head h1 {
@@ -399,6 +400,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  align-items: center;
 }
 
 .head2 {
@@ -414,17 +416,18 @@
 }
 
 .consultant {
-  padding: 5%;
+  padding: 2%;
   background-color: white;
   display: flex;
   flex-direction: column;
   height: 20vh;
-  width: auto;
-  gap: 5px;
+  width: 70%;
+  gap: 2px;
   font-size: 30px;
   text-align: center;
+  align-items: center;
   justify-content: center;
-  margin: 5%;
+  /* margin: 5%; */
 }
 
 .consultant img {
@@ -438,7 +441,7 @@
 }
 
 .consultant p {
-  max-width: 350px;
+  max-width: 280px;
   align-self: center;
 }
 
@@ -561,7 +564,6 @@ form {
   font-family: "montserrat";
   font-size: 100%;
   color: white;
-
 }
 
 .socials {
@@ -583,9 +585,9 @@ form {
   line-height: 25px;
 }
 
-.company {
+/* .company {
   padding-top: 30px;
-}
+} */
 
 .features a {
   text-decoration: none;
@@ -596,9 +598,9 @@ form {
   line-height: 25px;
 }
 
-.features {
+/* .features {
   padding-top: 30px;
-}
+} */
 
 .resources a {
   text-decoration: none;
@@ -609,9 +611,9 @@ form {
   line-height: 25px;
 }
 
-.resources {
+/* .resources {
   padding-top: 30px;
-}
+} */
 
 .bottom {
   background-color: #384163;
@@ -844,6 +846,8 @@ form {
     padding: 40px 0;
     align-items: center;
     justify-self: center;
+    display: flex;
+    flex-direction: row;
   }
   
   .testimonials .head h1 {
@@ -882,7 +886,8 @@ form {
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    gap: 1px;
+    gap: 5%;
+    margin-left: 3%;
   }
   
   .head2 {
@@ -898,7 +903,7 @@ form {
   }
   
   .consultant {
-    padding: 0;
+    padding: 2%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -970,7 +975,7 @@ form {
     flex-direction: row;
     font-family: "montserrat";
     font-size: 15px;
-    padding-left: 0;
+    padding: 10% 0 0 0;
     transform: translateY(-40%);
     align-self: center;
     justify-content: center;
@@ -988,7 +993,17 @@ form {
     padding-top: 25px;
   }
 
-  
+  .footer {
+    height: fit-content;
+    background-color: #252B42;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 9% 13%;
+    font-family: "montserrat";
+    font-size: 82%;
+    color: white;
+  }
 }
   
 
