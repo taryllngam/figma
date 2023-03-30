@@ -33,8 +33,7 @@
 
 .maininfo {
   background-image: linear-gradient(180deg, #de262600 14.58%, rgba(0, 0, 0, 0.84) 100%),url("../images/coverback.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: fit-content;
 }
 
 .info {
@@ -47,29 +46,33 @@
 }
 
 #text {
- padding: 200px 0 0 20px;
+ padding: 2% 0 0 5%;
  color: white;
- max-width: 600px;
+ max-width: 400px;
  margin: auto;
  font-weight: 1000;
  font-size: 50px;
 } 
 
 .info p {
-  padding: 20px 0;
+  padding: 2% 0 0 4%;
   color: white;
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
   font-weight: 1000;
   font-size: 20px;
+  justify-content: center;
 }
 
 .butons {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   gap: 3%;
   justify-content: center;
-  padding: 40px 0;
+  padding: 2% 0 0;
+}
+
+.btn2 {
+  padding: 7% 0 0 10%;
 }
 
 .butons a {
@@ -96,20 +99,24 @@
 }
 
 .acolades {
-  display: flex;
+  display: grid;
   flex-direction: row;
-  background-color: white;
-  height: 13vh;
-  width: 50vw;
-  margin: 0 25% 0;
-  gap: 7%;
-  /* position: absolute; */
-  transform: translateY(70%);
+  height: 50%;
+  width: auto;
+  justify-content: center;
+  padding: 8% 0;
+  /* margin: 0 20%; */
+  gap: 5%;
+  /* transform: translateY(70%); */
+}
+
+.fafa a {
+  font-family: "montserrat";
 }
 
 .acolades h1 {
   font-size: 15px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .acolades p {
@@ -125,7 +132,9 @@
 .acolades .box {
   display: flex;
   flex-direction: row;
-  padding: 15px 0 0 10px;
+  padding: 2% 7% 2% 0;
+  background-color: white;
+  width: 145%;
 }
 
 .standards {
@@ -133,13 +142,14 @@
 }
 
 .standard {
-  height: 50vh;
-  display: flex;
+  height: fit-content;
+  width: auto;
+  display: grid;
   flex-direction: row;
-  font-size: 10px;
+  font-size: 10%;
   font-weight: 'Montserrat', sans-serif;
-  gap: 30px;
-  padding: 10% 10% 0 25%;
+  gap: 3%;
+  padding: 10% 0 5% 36%;
 }
 
 .standard h1 {
@@ -158,8 +168,8 @@
 .standard .growth {
   padding: 15px 25px;
   background-color: white;
-  height: 19vh;
-  width: 7vw;
+  height: fit-content;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -179,8 +189,8 @@
 .standard .marketing {
   padding: 15px 25px;
   background-color: white;
-  height: 19vh;
-  width: 7vw;
+  height: fit-content;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -200,8 +210,8 @@
 .standard .top50 {
   padding: 15px 25px;
   background-color: white;
-  height: 19vh;
-  width: 7vw;
+  height: fit-content;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -221,8 +231,8 @@
 .standard .digital {
   padding: 15px 25px;
   background-color: #00A0C1;
-  height: 19vh;
-  width: 7vw;
+  height: fit-content;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -247,23 +257,29 @@
   margin: auto;
   text-align: center;
   color: white;
-  padding-bottom: 100px;
+  padding-top: 40%;
   font-family: "montserrat";
+  line-height: 35px;
 }
 
 .trust {
   display: flex;
+  flex-direction: column;
   gap: 50px;
   justify-content: center;
+  align-items: center;
   padding-bottom: 50px;
 }
 
 .media {
   background-image: url(../images/media.jpg);
   background-size: contain;
-  width: 27%;
-  height: 38vh;
-  justify-content: center;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  justify-self: center;
+  margin: 4%;
+
 }
 
 #play {
@@ -282,6 +298,7 @@
 
 .field p {
   max-width: 350px;
+  line-height: 35px;
 }
 
 .field .dog {
@@ -306,25 +323,36 @@
 
 .testimonials {
   background-color: #16697A;
-  height: 90vh;
+  height: fit-content;
+  width: fit-content;
 }
 
 .testimonies {
   display: flex;
   flex-direction: row;
-  gap: 40px;
-  padding-top: 40px;
+  gap: 20px;
+  padding: 40px 0;
+  align-items: center;
+  justify-self: center;
 }
 
-.testimonials .head {
+.testimonials .head h1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 500px;
+  max-width: 170px;
   margin: auto;
   text-align: center;
   color: white;
   padding-top: 100px;
+  font-family: "montserrat";
+}
+
+.testimonials .head p {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  color: white;
   font-family: "montserrat";
 }
 
@@ -336,8 +364,8 @@
 .regina {
   padding: 15px 25px;
   background-color: white;
-  height: 32vh;
-  width: 25vw;
+  height: 20vh;
+  width: auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -360,14 +388,16 @@
 }
 
 .staff-bar {
-  padding-left: 17%;
+  padding-left: 1%;
+  height: auto;
+  width: auto;
  
 }
 
 .staff-bar2 {
   margin-bottom: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -384,27 +414,32 @@
 }
 
 .consultant {
-  padding: 5px 15px;
+  padding: 5%;
   background-color: white;
   display: flex;
   flex-direction: column;
-  height: 23vh;
-  width: 10vw;
+  height: 20vh;
+  width: auto;
   gap: 5px;
-  font-size: 13px;
+  font-size: 30px;
   text-align: center;
   justify-content: center;
-  margin: 10px 10px;
+  margin: 5%;
 }
 
 .consultant img {
-  width: 70px;
-  padding-left: 25px;
+  width: 25%;
+  align-self: center;
 }
 
 .consultant h1 {
-  font-size: 13px;
+  font-size: 25px;
   max-width: 800px;
+}
+
+.consultant p {
+  max-width: 350px;
+  align-self: center;
 }
 
 .consult {
@@ -413,43 +448,54 @@
 
 .branches {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: "montserrat";
   margin: 10% 15% 0;
   padding-bottom: 20%;
   color: white;
-  gap: 10px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  gap: 90%;
+  max-width: 400px;
 }
 
-.branch {
+/* .branch {
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+} */
 
 .branch p {
   font-size: 12px;
-  line-height: 15px;
+  line-height:15px;
 }
 
 form {
   background-color: white;
+  width: auto;
 }
 
 .form {
   background-color: white;
-  transform: tra;
-  width: 37vw;
+  width: auto;
+  align-self: center;
+}
+
+.form1 #img2 {
+  width: 100%;
 }
 
 .form1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: "montserrat";
   font-size: 15px;
-  padding-left: 20%;
-  transform: translatey(-40%);
+  /* padding-left: 20%; */
 }
 
 .container {
@@ -506,22 +552,22 @@ form {
 }
 
 .footer {
-  height: 30vh;
+  height: fit-content;
   background-color: #252B42;
   display: flex;
-  flex-direction: row;
-  gap: 55px;
-  padding: 0 13%;
+  flex-direction: column;
+  gap: 5%;
+  padding: 9% 13%;
   font-family: "montserrat";
-  font-size: 13px;
+  font-size: 100%;
   color: white;
+
 }
 
 .socials {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding-top: 30px;
+  gap: 15px;
 }
 
 .social a {
@@ -571,7 +617,378 @@ form {
   background-color: #384163;
   color: #BDBDBD;
   text-align: center;
-  height: 8vh;
-  padding-top: 40px;
+  height: 4vh;
+  padding-top: 10px;
 }
+
+#insta {
+  color: #E51F5A;
+}
+
+#twit {
+  color: #21A6DF;
+}
+
+#tube {
+  color: #E42F08;
+}
+
+#face {
+  color: #335BF5;
+}
+
+@media screen and (min-width: 600px) {
+  .info {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  #text {
+    padding: 10% 0 0 5%;
+    color: white;
+    max-width: 700px;
+   } 
+   
+   .info p {
+     padding: 2% 0 0 4%;
+     color: white;
+     max-width: 500px;;
+   }
+   
+   .butons {
+     display: flex;
+     flex-direction: row;
+     gap: 3%;
+     align-self: center;
+     justify-content: center;
+     padding: 5% 0 0;
+   }
+
+   .btn2 {
+    padding: 0;
+  }
+
+  .acolades {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 1px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 0 15%;
+    gap: 9%;
+    transform: translateY(50%);
+  }
+
+  .acolades .box {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding:0 ;
+  }
+
+  .standard {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    font-weight: 'Montserrat', sans-serif;
+    gap: 3%;
+    padding: 10% 0 5% 15%;
+  }
+
+  .standard h1 {
+    font-size: 15px;
+  }
+  
+  .standard p {
+    max-width: 100px;
+  }
+  
+  .standard img {
+    width: 25px;
+    height: 35px;
+  }
+  
+  .standard .growth {
+    padding: 15px 25px;
+    background-color: white;
+    height: auto;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .standard #growth {
+    text-decoration: none;
+    color: #00A0C1;
+    font-size: 10px;
+    width: 70px;
+    height: 28px;
+    border-radius: 12px;
+    border: 1px solid #00A0C1;
+  }
+  
+  .standard .marketing {
+    padding: 15px 25px;
+    background-color: white;
+    height: auto;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .standard #marketing {
+    text-decoration: none;
+    color: #00A0C1;
+    font-size: 10px;
+    width: 70px;
+    height: 28px;
+    border-radius: 12px;
+    border: 1px solid #00A0C1;
+  }
+  
+  .standard .top50 {
+    padding: 15px 25px;
+    background-color: white;
+    height: auto;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .standard #top50 {
+    text-decoration: none;
+    color: #00A0C1;
+    font-size: 10px;
+    width: 70px;
+    height: 28px;
+    border-radius: 12px;
+    border: 1px solid #00A0C1;
+  }
+  
+  .standard .digital {
+    padding: 15px 25px;
+    background-color: #00A0C1;
+    height: auto;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .standard #digital {
+    text-decoration: none;
+    color: #00A0C1;
+    font-size: 10px;
+    width: 70px;
+    height: 28px;
+    border-radius: 12px;
+    border: 1px solid #00A0C1;
+  }
+
+  .newton {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-family: "montserrat";
+    line-height: 35px;
+  }
+  
+  .trust {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  .media {
+    background-image: url(../images/media.jpg);
+    background-size: contain;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    justify-self: center;
+    margin: 4%;
+  
+  }
+  
+  #play {
+    width: 30px;
+    margin: 35% 45%;
+    justify-content: center;
+  }
+
+  .testimonies {
+    padding: 40px 0;
+    align-items: center;
+    justify-self: center;
+  }
+  
+  .testimonials .head h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-family: "montserrat";
+  }
+  
+  .testimonials .head p {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: "montserrat";
+  }
+
+  .regina {
+    padding: 15px 25px;
+    background-color: white;
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .staff-bar2 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+  }
+  
+  .head2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 80px 0;
+    font-family: "montserrat";
+  }
+  
+  .consultant {
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: auto;
+    gap: 5px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    /* margin: 5%; */
+  }
+
+  .consultant img {
+    width: 70%;
+    align-self: center;
+  }
+  
+  .consultant h1 {
+    font-size: 15px;
+    max-width: 400px;
+  }
+  
+  .consultant p {
+    max-width: 200px;
+    align-content: left;
+  }
+
+  .branches {
+    display: flex;
+    flex-direction: row;
+    font-family: "montserrat";
+    margin: 10% 15% 0;
+    padding-bottom: 20%;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    max-width: 800px;
+  }
+
+  .branch p {
+    font-size: 15px;
+    line-height:15px;
+  }
+
+  .branch h1 {
+    padding: 15px 0;
+  }
+  
+  form {
+    background-color: white;
+    width: auto;
+  }
+  
+  .form {
+    background-color: white;
+    width: auto;
+    align-self: center;
+    padding:  20px;
+  }
+  
+  .form1 #img2 {
+    width: 100%;
+  }
+  
+  .form1 {
+    display: flex;
+    flex-direction: row;
+    font-family: "montserrat";
+    font-size: 15px;
+    padding-left: 0;
+    transform: translateY(-40%);
+    align-self: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+  }
+  
+  .form h1 {
+    padding-left: 0;
+    padding-top: 25px;
+  }
+
+  
+}
+  
 
