@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.mainbody {
+  overflow: hidden;
+}
+
 .navbar {
   width: 100vw;
   height: 6vh;
@@ -33,7 +37,7 @@
 }
 
 .maininfo {
-  background-image: linear-gradient(180deg, #de262600 14.58%,#000000d6 100% ), url("../images/coverback.jpg");
+  background-image: linear-gradient(180deg, #161616 14.58%,#0e000000 100% ), url("../images/coverback.jpg");
   background-size: cover;
   height: fit-content;
 }
@@ -49,7 +53,7 @@
 }
 
 #text {
-  padding: 2% 0 0 5%;
+  padding: 20% 0 0 5%;
   color: white;
   max-width: 400px;
   margin: auto;
@@ -108,7 +112,7 @@
   width: auto;
   justify-content: center;
   padding: 8% 0;
-  gap: 5%;
+  gap: 2%;
 
   /* margin: 0 20%; */
 
@@ -137,9 +141,10 @@
 .acolades .box {
   display: flex;
   flex-direction: row;
-  padding: 2% 7% 2% 0;
+  padding: 2%  2% 0;
   background-color: white;
-  width: 145%;
+  margin-bottom: 30%;
+  /* width: 145%; */
 }
 
 .standards {
@@ -154,7 +159,7 @@
   font-size: 10%;
   font-weight: "montserrat", sans-serif;
   gap: 3%;
-  padding: 10% 0 5% 38%;
+  padding: 10% 0 5% 30%;
 }
 
 .standard h1 {
@@ -264,7 +269,17 @@
   color: white;
   padding-top: 40%;
   font-family: "Montserrat", sans-serif;
-  line-height: 35px;
+}
+
+.newton h1 {
+  max-width: 300px;
+  align-self: center;
+}
+
+.newton p {
+  max-width: 400px;
+  align-self: center;
+  padding-bottom: 15%;
 }
 
 .trust {
@@ -274,6 +289,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  margin: 0 10%;
 }
 
 .media {
@@ -300,9 +316,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.field h1 {
+  max-width: 180px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
 .field p {
   max-width: 350px;
-  line-height: 35px;
 }
 
 .field .dog {
@@ -346,7 +367,7 @@
 }
 
 .consultant h1 {
-  font-size: 25px;
+  font-size: 15px;
   max-width: 800px;
 }
 
@@ -367,7 +388,7 @@
 }
 
 .consultant p {
-  max-width: 280px;
+  max-width: 130px;
   align-self: center;
 }
 
@@ -392,7 +413,7 @@
 .regina {
   padding: 15px 25px;
   background-color: white;
-  height: 20vh;
+  height: fit-content;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -432,6 +453,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.head2 h1 {
+  max-width: 150px;
+  align-self: center;
+}
+
+.head2 p {
+  max-width: 250px;
+  align-self: center;
+}
+
 .consultant {
   padding: 2%;
   background-color: white;
@@ -440,7 +471,7 @@
   height: 20vh;
   width: 70%;
   gap: 2px;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -449,7 +480,7 @@
 }
 
 .consultant img {
-  width: 25%;
+  width: 20%;
   align-self: center;
 }
 
@@ -461,25 +492,35 @@
   display: flex;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
-  margin: 10% 15% 0;
+  margin: 30% 15% 0;
   padding-bottom: 20%;
   color: white;
   align-self: center;
   justify-content: center;
   align-items: center;
-  gap: 90%;
+  gap: 90px;
   max-width: 400px;
 }
 
-/* .branch {
+.branch {
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  align-self: center;
+  gap: 20px;
+
+  /* align-self: center;
   justify-content: center;
-  align-items: center;
-  gap: 10%;
-} */
+  align-items: center; */
+}
+
+#wrldmap {
+  width: 100%;
+}
+
+.branch h1 {
+  max-width: 200px;
+  text-align: left;
+}
 
 form {
   background-color: white;
@@ -490,6 +531,8 @@ form {
   background-color: white;
   width: auto;
   align-self: center;
+  padding-bottom: 15%;
+  padding-right: 5%;
 }
 
 .form1 #img2 {
@@ -508,12 +551,13 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .form h1 {
   padding-left: 10%;
-  padding-top: 25px;
+  padding: 10% 0 15%;
+  max-width: 200px;
 }
 
 .ad {
@@ -522,31 +566,31 @@ form {
 }
 
 #name {
+  width: 60vw;
   height: 35px;
   padding-left: 5px;
-  width: 30vw;
 }
 
 #email {
+  width: 60vw;
   height: 35px;
   padding-left: 5px;
-  width: 30vw;
 }
 
 #depart {
   height: 35px;
   padding-left: 5px;
-  width: 31vw;
+  width: 62vw;
 }
 
 #time {
+  width: 62vw;
   height: 35px;
   padding-left: 5px;
-  width: 31vw;
 }
 
 #buttn {
-  width: 31vw;
+  width: 62vw;
   padding: 10px;
   background-color: #ffa62b;
   border-color: #ffa62b;
@@ -567,6 +611,7 @@ form {
   font-family: "Montserrat", sans-serif;
   font-size: 100%;
   color: white;
+  align-self: center;
 }
 
 .socials {
@@ -622,8 +667,14 @@ form {
   background-color: #384163;
   color: #bdbdbd;
   text-align: center;
-  height: 4vh;
+  height: 6vh;
   padding-top: 10px;
+}
+
+.bottom p {
+  max-width: 200px;
+  text-align: center;
+  padding-left: 20%;
 }
 
 #insta {
