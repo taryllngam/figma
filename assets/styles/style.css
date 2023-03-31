@@ -17,7 +17,7 @@
 
 .topbar h1 {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar .topbar {
@@ -33,19 +33,19 @@
 }
 
 .maininfo {
-  background-image: linear-gradient(180deg, #de262600 14.58%,rgba(0, 0, 0, 0.84) 100% ),
-  url("../images/coverback.jpg");
+  background-image: linear-gradient(180deg, #de262600 14.58%,#000000d6 100% ), url("../images/coverback.jpg");
   background-size: cover;
   height: fit-content;
 }
 
 .info {
-  font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 90px;
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
   gap: 20px;
+
+  /* display: flex;
+  flex-direction: column; */
 }
 
 #text {
@@ -97,8 +97,8 @@
   display: inline-block;
   border-radius: 20px;
   background-color: inherit;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 .acolades {
@@ -108,13 +108,14 @@
   width: auto;
   justify-content: center;
   padding: 8% 0;
-  /* margin: 0 20%; */
   gap: 5%;
+
+  /* margin: 0 20%; */
   /* transform: translateY(70%); */
 }
 
 .fafa a {
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
 }
 
 .acolades h1 {
@@ -150,7 +151,7 @@
   display: grid;
   flex-direction: row;
   font-size: 10%;
-  font-weight: 'montserrat', sans-serif;
+  font-weight: "montserrat", sans-serif;
   gap: 3%;
   padding: 10% 0 5% 38%;
 }
@@ -261,7 +262,7 @@
   text-align: center;
   color: white;
   padding-top: 40%;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
   line-height: 35px;
 }
 
@@ -275,7 +276,7 @@
 }
 
 .media {
-  background-image: url(../images/media.jpg);
+  background-image: url("../images/media.jpg");
   background-size: contain;
   width: 100%;
   height: 50%;
@@ -295,7 +296,7 @@
   flex-direction: column;
   gap: 20px;
   color: white;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
 }
 
 .field p {
@@ -338,6 +339,11 @@
   margin: 0 3% 0 1%;
 }
 
+.regina h1 {
+  font-size: 17px;
+  padding-left: 10px;
+}
+
 .testimonials .head h1 {
   display: flex;
   flex-direction: column;
@@ -347,7 +353,11 @@
   text-align: center;
   color: white;
   padding-top: 100px;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
+}
+
+.star p {
+  max-width: 350px;
 }
 
 .testimonials .head p {
@@ -355,12 +365,12 @@
   margin: auto;
   text-align: center;
   color: white;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
 }
 
 #test {
   width: 50px;
-  transform: translatey(120%);
+  transform: translateY(120%);
 }
 
 .regina {
@@ -373,15 +383,6 @@
   gap: 15px;
   text-align: left;
   margin-left: 20px;
-}
-
-.regina h1 {
-  font-size: 17px;
-  padding-left: 10px;
-}
-
-.star p {
-  max-width: 350px;
 }
 
 .staff {
@@ -412,7 +413,7 @@
   text-align: center;
   color: white;
   padding: 80px 0;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
 }
 
 .consultant {
@@ -427,6 +428,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+
   /* margin: 5%; */
 }
 
@@ -452,7 +454,7 @@
 .branches {
   display: flex;
   flex-direction: column;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
   margin: 10% 15% 0;
   padding-bottom: 20%;
   color: white;
@@ -496,7 +498,7 @@ form {
 .form1 {
   display: flex;
   flex-direction: column;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   /* padding-left: 20%; */
 }
@@ -561,7 +563,7 @@ form {
   flex-direction: column;
   gap: 5%;
   padding: 9% 13%;
-  font-family: 'montserrat';
+  font-family: "Montserrat", sans-serif;
   font-size: 100%;
   color: white;
 }
@@ -648,7 +650,7 @@ form {
   }
 
   .info {
-    font-family: 'montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 90px;
     display: flex;
     flex-direction: column;
@@ -819,7 +821,7 @@ form {
     text-align: center;
     color: white;
     padding-top: 10%;
-    font-family: 'montserrat';
+    font-family:"Montserrat", sans-serif;
     line-height: 35px;
   }
 
@@ -906,7 +908,7 @@ form {
     text-align: center;
     color: white;
     padding: 80px 0;
-    font-family: 'montserrat';
+    font-family: "Montserrat", sans-serif;
   }
 
   .consultant {
@@ -920,6 +922,7 @@ form {
     font-size: 15px;
     text-align: center;
     justify-content: center;
+
     /* margin: 5%; */
   }
 
@@ -941,7 +944,7 @@ form {
   .branches {
     display: flex;
     flex-direction: row;
-    font-family: 'montserrat';
+    font-family: "Montserrat", sans-serif;
     margin: 10% 15% 0;
     padding-bottom: 20%;
     color: white;
@@ -980,7 +983,7 @@ form {
   .form1 {
     display: flex;
     flex-direction: row;
-    font-family: 'montserrat';
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     padding: 10% 0 0;
     transform: translateY(-40%);
@@ -1007,7 +1010,7 @@ form {
     flex-direction: row;
     gap: 8%;
     padding: 2% 13% 5%;
-    font-family: 'montserrat';
+    font-family: "Montserrat", sans-serif;
     font-size: 82%;
     color: white;
   }
