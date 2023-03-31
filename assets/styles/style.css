@@ -5,7 +5,7 @@
 
 .mainbody {
   overflow: hidden;
-  font-family: "Montserrat", "sans-serif";
+  font-family: 'Montserrat', "sans-serif";
 }
 
 .navbar {
@@ -376,7 +376,6 @@
 }
 
 .form h1 {
-  padding-left: 10%;
   padding: 10% 0 15%;
   max-width: 200px;
 }
@@ -549,6 +548,7 @@ form {
   display: flex;
   flex-direction: column;
   font-size: 15px;
+
   /* padding-left: 20%; */
 }
 
@@ -996,10 +996,6 @@ form {
     padding: 80px 0;
   }
 
-  .head2 p {
-    max-width: 500px;
-  }
-
   .consultant {
     padding: 2%;
     background-color: white;
@@ -1102,7 +1098,7 @@ form {
     color: white;
   }
 
- .footer {
+  .footer {
     height: fit-content;
     background-color: #252b42;
     display: flex;
