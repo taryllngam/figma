@@ -14,9 +14,10 @@
   text-decoration: none;
   color: white;
 }
+
 .topbar h1 {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar .topbar {
@@ -32,18 +33,14 @@
 }
 
 .maininfo {
-  background-image: linear-gradient(
-      180deg,
-      #de262600 14.58%,
-      rgba(0, 0, 0, 0.84) 100%
-    ),
-    url("../images/coverback.jpg");
+  background-image: linear-gradient(180deg, #de262600 14.58%,rgba(0, 0, 0, 0.84) 100% ),
+  url("../images/coverback.jpg");
   background-size: cover;
   height: fit-content;
 }
 
 .info {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
   font-weight: 90px;
   /* display: flex;
   flex-direction: column; */
@@ -117,7 +114,7 @@
 }
 
 .fafa a {
-  font-family: "montserrat";
+  font-family: 'montserrat';
 }
 
 .acolades h1 {
@@ -153,7 +150,7 @@
   display: grid;
   flex-direction: row;
   font-size: 10%;
-  font-weight: "Montserrat", sans-serif;
+  font-weight: 'montserrat', sans-serif;
   gap: 3%;
   padding: 10% 0 5% 38%;
 }
@@ -264,7 +261,7 @@
   text-align: center;
   color: white;
   padding-top: 40%;
-  font-family: "montserrat";
+  font-family: 'montserrat';
   line-height: 35px;
 }
 
@@ -298,7 +295,7 @@
   flex-direction: column;
   gap: 20px;
   color: white;
-  font-family: "montserrat";
+  font-family: 'montserrat';
 }
 
 .field p {
@@ -350,7 +347,7 @@
   text-align: center;
   color: white;
   padding-top: 100px;
-  font-family: "montserrat";
+  font-family: 'montserrat';
 }
 
 .testimonials .head p {
@@ -358,7 +355,7 @@
   margin: auto;
   text-align: center;
   color: white;
-  font-family: "montserrat";
+  font-family: 'montserrat';
 }
 
 #test {
@@ -415,7 +412,7 @@
   text-align: center;
   color: white;
   padding: 80px 0;
-  font-family: "montserrat";
+  font-family: 'montserrat';
 }
 
 .consultant {
@@ -455,7 +452,7 @@
 .branches {
   display: flex;
   flex-direction: column;
-  font-family: "montserrat";
+  font-family: 'montserrat';
   margin: 10% 15% 0;
   padding-bottom: 20%;
   color: white;
@@ -499,7 +496,7 @@ form {
 .form1 {
   display: flex;
   flex-direction: column;
-  font-family: "montserrat";
+  font-family: 'montserrat';
   font-size: 15px;
   /* padding-left: 20%; */
 }
@@ -564,7 +561,7 @@ form {
   flex-direction: column;
   gap: 5%;
   padding: 9% 13%;
-  font-family: "montserrat";
+  font-family: 'montserrat';
   font-size: 100%;
   color: white;
 }
@@ -651,7 +648,7 @@ form {
   }
 
   .info {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 90px;
     display: flex;
     flex-direction: column;
@@ -711,7 +708,7 @@ form {
     display: flex;
     flex-direction: row;
     font-size: 10px;
-    font-weight: "Montserrat", sans-serif;
+    font-weight: 'montserrat', sans-serif;
     gap: 3%;
     padding: 10% 0 5% 15%;
   }
@@ -822,7 +819,7 @@ form {
     text-align: center;
     color: white;
     padding-top: 10%;
-    font-family: "montserrat";
+    font-family: 'montserrat';
     line-height: 35px;
   }
 
@@ -836,7 +833,7 @@ form {
   }
 
   .media {
-    background-image: url(../images/media.jpg);
+    background-image: url("../images/media.jpg");
     background-size: contain;
     width: 30%;
     height: auto;
@@ -869,7 +866,7 @@ form {
     text-align: center;
     color: white;
     padding-top: 100px;
-    font-family: "montserrat";
+    font-family: 'montserrat';
   }
 
   .testimonials .head p {
@@ -877,7 +874,7 @@ form {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: "montserrat";
+    font-family: 'montserrat';
   }
 
   .regina {
@@ -909,7 +906,7 @@ form {
     text-align: center;
     color: white;
     padding: 80px 0;
-    font-family: "montserrat";
+    font-family: 'montserrat';
   }
 
   .consultant {
@@ -944,7 +941,7 @@ form {
   .branches {
     display: flex;
     flex-direction: row;
-    font-family: "montserrat";
+    font-family: 'montserrat';
     margin: 10% 15% 0;
     padding-bottom: 20%;
     color: white;
@@ -983,9 +980,9 @@ form {
   .form1 {
     display: flex;
     flex-direction: row;
-    font-family: "montserrat";
+    font-family: 'montserrat';
     font-size: 15px;
-    padding: 10% 0 0 0;
+    padding: 10% 0 0;
     transform: translateY(-40%);
     align-self: center;
     justify-content: center;
@@ -1010,7 +1007,7 @@ form {
     flex-direction: row;
     gap: 8%;
     padding: 2% 13% 5%;
-    font-family: "montserrat";
+    font-family: 'montserrat';
     font-size: 82%;
     color: white;
   }
