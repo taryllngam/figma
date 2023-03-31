@@ -144,6 +144,7 @@
   padding: 2%  2% 0;
   background-color: white;
   margin-bottom: 30%;
+
   /* width: 145%; */
 }
 
@@ -371,6 +372,11 @@
   max-width: 800px;
 }
 
+.head2 h1 {
+  max-width: 150px;
+  align-self: center;
+}
+
 .testimonials .head h1 {
   display: flex;
   flex-direction: column;
@@ -451,11 +457,6 @@
   color: white;
   padding: 80px 0;
   font-family: "Montserrat", sans-serif;
-}
-
-.head2 h1 {
-  max-width: 150px;
-  align-self: center;
 }
 
 .head2 p {
@@ -918,6 +919,21 @@ form {
     flex-direction: row;
   }
 
+  .form h1 {
+    padding: 2% 0 0 10%;
+    max-width: 600px;
+  }
+
+  .branch h1 {
+    padding: 5px 0;
+    max-width: 350px;
+  }
+
+  .consultant h1 {
+    font-size: 15px;
+    max-width: 400px;
+  }
+
   .testimonials .head h1 {
     display: flex;
     flex-direction: column;
@@ -928,6 +944,24 @@ form {
     color: white;
     padding-top: 100px;
     font-family: 'montserrat';
+  }
+
+  .bottom p {
+    max-width: 400px;
+    padding-left: 35%;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .branch p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .consultant p {
+    max-width: 200px;
+    align-content: left;
   }
 
   .testimonials .head p {
@@ -1001,16 +1035,6 @@ form {
     align-self: center;
   }
 
-  .consultant h1 {
-    font-size: 15px;
-    max-width: 400px;
-  }
-
-  .consultant p {
-    max-width: 200px;
-    align-content: left;
-  }
-
   .branches {
     display: flex;
     flex-direction: row;
@@ -1025,16 +1049,6 @@ form {
     max-width: 800px;
   }
 
-  .branch p {
-    font-size: 15px;
-    line-height: 15px;
-  }
-
-  .branch h1 {
-    padding: 5px 0;
-    max-width: 350px;
-  }
-
   form {
     background-color: white;
     width: auto;
@@ -1045,6 +1059,10 @@ form {
     width: auto;
     align-self: center;
     padding: 40px;
+  }
+
+  #img2 {
+    height: 50vh;
   }
 
   .form1 #img2 {
@@ -1068,13 +1086,6 @@ form {
     gap: 10px;
     padding-left: 0;
   }
-  
-  .form h1 {
-    padding-left: 10%;
-    padding: 2% 0 2%;
-    max-width: 600px;
-  }
-
 
   #name {
     width: 29vw;
@@ -1108,10 +1119,6 @@ form {
     color: white;
   }
 
-  #img2 {
-    height: 50vh;
-  }
-
  .footer {
     height: fit-content;
     background-color: #252b42;
@@ -1124,11 +1131,4 @@ form {
     color: white;
   }
 
-  .bottom p {
-    max-width: 400px;
-    padding-left: 35%;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-  }
 }
