@@ -5,8 +5,8 @@
 
 .mainbody {
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar {
@@ -38,7 +38,7 @@
 }
 
 .maininfo {
-  background-image: linear-gradient(180deg, #161616 14.58%,#0e000000 100% ), url("../images/coverback.jpg");
+  background-image: linear-gradient(180deg, #161616 14.58%, #0e000000 100%), url("../images/coverback.jpg");
   background-size: cover;
   height: fit-content;
 }
