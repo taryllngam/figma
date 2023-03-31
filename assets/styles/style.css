@@ -5,7 +5,7 @@
 
 .mainbody {
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "sans-serif";
 }
 
 .navbar {
@@ -120,10 +120,6 @@
   /* transform: translateY(70%); */
 }
 
-.fafa a {
-  /* font-family: "Montserrat", sans-serif; */
-}
-
 .acolades h1 {
   font-size: 15px;
   padding-top: 5px;
@@ -159,7 +155,7 @@
   display: grid;
   flex-direction: row;
   font-size: 10%;
-  font-weight: "montserrat", sans-serif;
+  font-weight: 900;
   gap: 3%;
   padding: 10% 0 5% 30%;
 }
@@ -270,7 +266,6 @@
   text-align: center;
   color: white;
   padding-top: 40%;
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 .newton h1 {
@@ -315,7 +310,6 @@
   flex-direction: column;
   gap: 20px;
   color: white;
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 .field h1 {
@@ -387,7 +381,6 @@
   text-align: center;
   color: white;
   padding-top: 100px;
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 .star p {
@@ -409,7 +402,6 @@
   margin: auto;
   text-align: center;
   color: white;
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 #test {
@@ -457,7 +449,6 @@
   text-align: center;
   color: white;
   padding: 80px 0;
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 .head2 p {
@@ -493,7 +484,6 @@
 .branches {
   display: flex;
   flex-direction: column;
-  /* font-family: "Montserrat", sans-serif; */
   margin: 30% 15% 0;
   padding-bottom: 20%;
   color: white;
@@ -544,7 +534,6 @@ form {
 .form1 {
   display: flex;
   flex-direction: column;
-  /* font-family: "Montserrat", sans-serif; */
   font-size: 15px;
   /* padding-left: 20%; */
 }
@@ -610,7 +599,6 @@ form {
   flex-direction: column;
   gap: 5%;
   padding: 9% 13%;
-  /* font-family: "Montserrat", sans-serif; */
   font-size: 100%;
   color: white;
   align-self: center;
@@ -704,7 +692,6 @@ form {
   }
 
   .info {
-    /* font-family: "Montserrat", sans-serif; */
     font-weight: 90px;
     display: flex;
     flex-direction: column;
@@ -765,7 +752,6 @@ form {
     display: flex;
     flex-direction: row;
     font-size: 10px;
-    font-weight: "montserrat", sans-serif;
     gap: 3%;
     padding: 10% 0 5% 15%;
   }
@@ -876,7 +862,6 @@ form {
     text-align: center;
     color: white;
     padding-top: 10%;
-    font-family:"Montserrat", sans-serif;
     line-height: 35px;
   }
 
@@ -944,7 +929,6 @@ form {
     text-align: center;
     color: white;
     padding-top: 100px;
-    font-family: 'montserrat';
   }
 
   .bottom p {
@@ -970,7 +954,6 @@ form {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'montserrat';
   }
 
   .regina {
@@ -1002,7 +985,6 @@ form {
     text-align: center;
     color: white;
     padding: 80px 0;
-    /* font-family: "Montserrat", sans-serif; */
   }
 
   .head2 h1 {
@@ -1039,7 +1021,6 @@ form {
   .branches {
     display: flex;
     flex-direction: row;
-    /* font-family: "Montserrat", sans-serif; */
     margin: 10% 15% 0;
     padding-bottom: 20%;
     color: white;
@@ -1073,7 +1054,6 @@ form {
   .form1 {
     display: flex;
     flex-direction: row;
-    /* font-family: "Montserrat", sans-serif; */
     font-size: 15px;
     padding: 10% 0 0;
     transform: translateY(-50%);
@@ -1127,7 +1107,6 @@ form {
     flex-direction: row;
     gap: 8%;
     padding: 2% 13% 5%;
-    /* font-family: "Montserrat", sans-serif; */
     font-size: 82%;
     color: white;
   }
