@@ -5,7 +5,7 @@
 
 .mainbody {
   overflow: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -424,7 +424,7 @@
   color: white;
 }
 
-#test {
+.test .testt {
   width: 50px;
   transform: translateY(120%);
 }
