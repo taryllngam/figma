@@ -5,7 +5,8 @@
 
 .mainbody {
   overflow: hidden;
-  font-family: 'Montserrat', "sans-serif";
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -537,7 +538,7 @@ form {
 }
 
 #img2 {
-  height: 60vh;
+  height: 40vh;
 }
 
 .form1 #img2 {
@@ -1042,12 +1043,12 @@ form {
   }
 
   #img2 {
-    height: 50vh;
+    height: 58vh;
   }
 
-  .form1 #img2 {
+  /* .form1 #img2 {
     width: 100%;
-  }
+  } */
 
   .form1 {
     display: flex;
