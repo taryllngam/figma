@@ -691,7 +691,7 @@ form {
   }
 
   .maininfo {
-    background-image: linear-gradient(180deg, #3e3e3e 14.58%, #ffffff00 100%), url("../images/coverback.jpg");
+    background-image: linear-gradient(180deg, #413f3f86 14.58%, #75737300 100%), url("../images/coverback.jpg");
     background-size: cover;
     height: fit-content;
   }
@@ -1061,7 +1061,7 @@ form {
     flex-direction: row;
     font-size: 15px;
     padding: 20% 0 0;
-    transform: translateY(-55%);
+    transform: translateY(-50%);
     align-self: center;
     justify-content: center;
   }
