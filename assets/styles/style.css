@@ -89,7 +89,7 @@
 }
 
 #get {
-  padding: 15px 32px;
+  padding: 15px 45px;
   display: inline-block;
   border-radius: 20px;
   background-color: orange;
@@ -97,7 +97,7 @@
 }
 
 #learn {
-  padding: 15px 32px;
+  padding: 15px 39px;
   display: inline-block;
   border-radius: 20px;
   background-color: inherit;
@@ -120,12 +120,12 @@
 }
 
 .acolades h1 {
-  font-size: 15px;
+  font-size: 17px;
   padding-top: 5px;
 }
 
 .acolades p {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .acolades img {
@@ -137,11 +137,10 @@
 .acolades .box {
   display: flex;
   flex-direction: row;
-  padding: 2%  2% 0;
+  padding: 2%  2% 5% 10%;
   background-color: white;
   margin-bottom: 30%;
-
-  /* width: 145%; */
+  width: 45vw;
 }
 
 .standards {
@@ -153,18 +152,18 @@
   width: auto;
   display: grid;
   flex-direction: row;
-  font-size: 10%;
+  font-size: 20px;
   font-weight: 900;
   gap: 3%;
-  padding: 10% 0 5% 30%;
+  padding: 10% 0 5% 27%;
 }
 
 .standard h1 {
-  font-size: 9px;
+  font-size: 15px;
 }
 
 .standard p {
-  max-width: 100px;
+  /* max-width: 100px; */
 }
 
 .standard img {
@@ -176,28 +175,29 @@
   padding: 15px 25px;
   background-color: white;
   height: fit-content;
-  width: 40%;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  text-align: left;
+  
 }
 
 .standard #growth {
   text-decoration: none;
   color: #00a0c1;
   font-size: 10px;
-  width: 70px;
+  width: 80px;
   height: 28px;
   border-radius: 12px;
   border: 1px solid #00a0c1;
+  margin: auto;
 }
 
 .standard .marketing {
   padding: 15px 25px;
   background-color: white;
   height: fit-content;
-  width: 40%;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -208,7 +208,7 @@
   text-decoration: none;
   color: #00a0c1;
   font-size: 10px;
-  width: 70px;
+  width: 80px;
   height: 28px;
   border-radius: 12px;
   border: 1px solid #00a0c1;
@@ -218,7 +218,7 @@
   padding: 15px 25px;
   background-color: white;
   height: fit-content;
-  width: 40%;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -229,7 +229,7 @@
   text-decoration: none;
   color: #00a0c1;
   font-size: 10px;
-  width: 70px;
+  width: 80px;
   height: 28px;
   border-radius: 12px;
   border: 1px solid #00a0c1;
@@ -239,7 +239,7 @@
   padding: 15px 25px;
   background-color: #00a0c1;
   height: fit-content;
-  width: 40%;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -250,10 +250,11 @@
   text-decoration: none;
   color: #00a0c1;
   font-size: 10px;
-  width: 70px;
+  width: 80px;
   height: 28px;
   border-radius: 12px;
   border: 1px solid #00a0c1;
+  justify-self: center;
 }
 
 .newton {
@@ -290,9 +291,9 @@
 
 .media {
   background-image: url("../images/media.jpg");
-  background-size: contain;
+  background-size: cover;
   width: 100%;
-  height: 50%;
+  height: auto;
   text-align: center;
   justify-self: center;
   margin: 4%;
@@ -522,6 +523,7 @@
 
 #wrldmap {
   width: 100%;
+  min-width: 250px;
 }
 
 form {
