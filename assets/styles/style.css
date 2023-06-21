@@ -113,10 +113,6 @@
   justify-content: center;
   padding: 8% 0;
   gap: 2%;
-
-  /* margin: 0 20%; */
-
-  /* transform: translateY(70%); */
 }
 
 .acolades h1 {
@@ -735,13 +731,13 @@ form {
     display: flex;
     flex-direction: row;
     background-color: white;
-    height: 1px;
-    width: auto;
+    height: 10px;
+    min-width: 470px;
     align-items: center;
-    justify-content: center;
-    padding: 3%;
+    justify-content: space-between;
+    padding: 4% 3%;
     margin: 0 15%;
-    gap: 9%;
+    gap: ;
     transform: translateY(50%);
   }
 
