@@ -39,7 +39,7 @@
 
 .maininfo {
   background-image: linear-gradient(180deg, #161616 14.58%, #0e000000 100%),
-    url("../images/coverback.jpg");
+  url("../images/coverback.jpg");
   background-size: cover;
   height: fit-content;
 }
@@ -690,7 +690,7 @@ form {
 
   .maininfo {
     background-image: linear-gradient(180deg, #413f3f86 14.58%, #75737300 100%),
-      url("../images/coverback.jpg");
+    url("../images/coverback.jpg");
     background-size: cover;
     height: fit-content;
   }
